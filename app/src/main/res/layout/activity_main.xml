@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="151dp"
+        android:headerBackground="@color/colorPrimaryDark"
+        android:numbersSelectorColor="@color/colorPrimaryDark" />
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="261dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="18dp"
+        android:textAlignment="center"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="126dp"
+        android:text="Set Your Alarm"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginBottom="66dp"
+        android:text="Internal System Clock:"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
